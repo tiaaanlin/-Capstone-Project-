@@ -14,6 +14,6 @@ Analysis of Car Accident
  # 2.Data section
 
  ## 2.1 Data sourse
- Statistics on most accidents, weather, casualties, location, etc. But some of the data is empty. ROADCOND: The condition of The road during The collision. This content has about 5,000 null values in the database. Considering that this factor is not of great help to the analysis of traffic accidents, this information was deleted from the database during the analysis process in order to better complete the project.
+ The Dataset include 194673 records of car accident, and 37 attributes. The attributes are including weather condition, light condition, speed and the amount of injuried people,etc. From each row of data, we could know how the accident happen and how many people get injuired in the accident. By using the this kind of data, we cound do analysis and found out which factor is the most significant one and prevent it next time. However,some of the data is empty. ROADCOND: The condition of The road during The collision. This content has about 5,000 null values in the database. Considering that this factor is not of great help to the analysis of traffic accidents, this information was deleted from the database during the analysis process in order to better complete the project.
  ## 2.2 Method
  First,is to clean and prepare the data in the data set. Then so some calculation to find the most possibly factor that cause the accident.Then plot the diagram to show how the the factor effect the accident and make the prediction.
