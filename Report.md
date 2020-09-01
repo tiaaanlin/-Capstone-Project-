@@ -10,7 +10,7 @@ Analysis of Car Accident
   similar accidents next time, so as to reduce casualties.
  
 ## 1.2 Business Problem
-  Traffic accident data can help to find out the causes of most traffic accidents, including weather, speed, road conditions and so on. The aim of the project is to use the data and build a model. When there gives some data, like weather, light condition, road condition, the model will classify the data, and make prediction about its possible damage: property damage or injured people.
+  Traffic accident data can help to find out the causes of most traffic accidents, including weather, speed, road conditions and so on. The aim of the project is to use the data and build a model. When there gives some data, like weather, light condition, road condition, the model will classify the data, and make prediction about its possible damage: property damage or injury.(i.e class 1 or class 2)
  # 2.Data section
 
  ## 2.1 Data sourse
@@ -29,4 +29,4 @@ From the notebook, the result is the table below:
 # 5.Discussion
 From the result above, the Jaccard index and F1-Score are close among these three method. However, the Logistic Regression has a better Log Loss number. The reason for that is the SEVERITYCODE in this data set is binary, which is only two classes: class 1 and class 2. 
 # 6.Conclusion
-In conclusion, the Logistic Regression is the best way to classify this dataset. Therefore, a data can be classify by given the weather, road condition and light condition. 
+In conclusion, the Logistic Regression is the best way to classify this dataset. The dataset in this capstone about weather, road condition, and light condition can directly pointing to certain classes, therefore we can conclude that particular conditions have an impact on whether or not an accident could result in property damage (class 1) or injury (class 2).
