@@ -27,4 +27,6 @@ From the notebook, the result is the table below:
 | Decision Tree      | 0.56285       | 0.534773        | NA      |
 | LogisticRegression | 0.52435       | 0.509146        | 0.68563     |
 # 5.Discussion
+From the result above, the Jaccard index and F1-Score are close among these three method. However, the Logistic Regression has a better Log Loss number. The reason for that is the SEVERITYCODE in this data set is binary, which is only two classes: class 1 and class 2. 
 # 6.Conclusion
+In conclusion, the Logistic Regression is the best way to classify this dataset. Therefore, a data can be classify by given the weather, road condition and light condition. 
